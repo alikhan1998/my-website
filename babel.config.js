@@ -1,5 +1,6 @@
 module.exports = {
   presets: [require.resolve('@docusaurus/core/lib/babel/preset')],
-  baseUrlIssueBanner: false, // Defaults to `true`
+  baseUrlIssueBanner: false,
+  baseUrl:'/',// Defaults to `true`
 
 };
